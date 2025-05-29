@@ -40,7 +40,7 @@
     </div>
     <?php require 'resume.php';
     
-    $projnum = count($projects);
+             $projnum = count($projects);
 
             
     echo "<br>";
@@ -57,7 +57,6 @@ for ($x = 0; $x < $projnum; $x++) {
             }
 }
 }
-
 
 
     ?>

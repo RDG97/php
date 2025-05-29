@@ -29,6 +29,7 @@ class Project {
         public string $desc
     ) {
     }
+    
 }
 
 $projects = [
