@@ -14,7 +14,7 @@ class Project {
     public function __construct(
         public string $name,
         public string $link,
-        public string $desc,
+        public string $desc
     ) {
     }
 }
@@ -32,6 +32,12 @@ diagnostics. Balanced customer service responsibilities with hands-on mechanical
 ]
 
 $projects = [
-    new Project(name: '', link: '', desc: ''),
-]
+    new Project(name: 'To Do list', link: 'https://rdg97.github.io/todo-2/', desc: 'A ReactJS productivity app using localStorage to track tasks with a user-friendly 
+interface. '),
+    new Project(name: 'Project Redline', link: 'https://project-redline123.web.app/', desc: 'Twitter clone using ReactJS + Django. Integrated CarQuery API for dynamic vehicle 
+data. 
+'),
+    new Project(name: 'Django Djams', link: 'https://github.com/RDG97/django-djams', desc: 'REST API built with Django/PostgreSQL for querying artist discographies. Used 
+test-driven development.'),
+];
 ?>

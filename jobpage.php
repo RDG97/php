@@ -40,7 +40,8 @@
     </div>
     <?php require 'resume.php';
     
-    $jobnum = count($jobs);
+    function jobDisplay() {
+            $jobnum = count($jobs);
     echo "<br>";
 for ($x = 0; $x < $jobnum; $x++) {
       echo "<br>";
@@ -49,6 +50,8 @@ for ($x = 0; $x < $jobnum; $x++) {
 
 }
 }
+    }
+    jobDisplay()
 
 
     ?>
