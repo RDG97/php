@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryan's Resume</title>
+    <link rel="icon" type="image/x-icon" href="img\favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+       <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="https://www.linkedin.com/in/ryangann/">Ryan Gann</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +28,7 @@
           <a class="nav-link" href="projects.php">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Me</a>
+          <a class="nav-link" href="aboutMe.php">About Me</a>
         </li>
       </ul>
     </div>
@@ -39,8 +40,8 @@
     ?>
     </div>
     <?php require 'resume.php';
-    
-    $projnum = count($projects);
+
+             $projnum = count($projects);
 
             
     echo "<br>";
@@ -57,7 +58,6 @@ for ($x = 0; $x < $projnum; $x++) {
             }
 }
 }
-
 
 
     ?>
