@@ -33,14 +33,14 @@
     </div>
   </div>
 </nav>
-
+<div class=".container-fluid">
     <?php echo '<p>Job History</p>'; 
     ?>
     <?php require 'resume.php';
     
-    $carnum = count($jobs);
+    $jobnum = count($jobs);
     echo "<br>";
-for ($x = 0; $x < $carnum; $x++) {
+for ($x = 0; $x < $jobnum; $x++) {
       echo "<br>";
         foreach ($jobs[$x] as $z) {
   echo "$z <br>";
@@ -50,7 +50,7 @@ for ($x = 0; $x < $carnum; $x++) {
 
 
     ?>
-
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
