@@ -8,17 +8,8 @@ class Job {
         public string $descrip
     ) {
     }
-}
 
-class Project {
-    public function __construct(
-        public string $name,
-        public string $link,
-        public string $desc
-    ) {
-    }
 }
-
 
 $jobs = [
         new Job(name: 'Auto Excel', place: 'Lexington, KY', times: 'Oct 2024 - Apr 2025', title: 'Technician', descrip: 'Diagnosed and resolved complex mechanical issues, delivering fast and accurate solutions. Managed multiple repair jobs daily, 
@@ -29,7 +20,16 @@ $jobs = [
          detail.'),
          new Job(name: 'Car Town Kia', place: 'Nicholasville, KY', times: 'Jun 2024 - Oct 2024', title: 'Express Technician', descrip: 'Prioritized customer vehicles based on urgency, handled quick-turn services and engine 
 diagnostics. Balanced customer service responsibilities with hands-on mechanical work.'),
-]
+];
+
+class Project {
+    public function __construct(
+        public string $name,
+        public string $link,
+        public string $desc
+    ) {
+    }
+}
 
 $projects = [
     new Project(name: 'To Do list', link: 'https://rdg97.github.io/todo-2/', desc: 'A ReactJS productivity app using localStorage to track tasks with a user-friendly 

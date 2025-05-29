@@ -24,7 +24,7 @@
           <a class="nav-link" href="jobpage.php">Job History</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="projects.php">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About Me</a>
@@ -39,9 +39,10 @@
     ?>
     </div>
     <?php require 'resume.php';
-    
-    function jobDisplay() {
-            $jobnum = count($jobs);
+
+    $jobnum = count($jobs);
+
+            
     echo "<br>";
 for ($x = 0; $x < $jobnum; $x++) {
       echo "<br>";
@@ -50,8 +51,7 @@ for ($x = 0; $x < $jobnum; $x++) {
 
 }
 }
-    }
-    jobDisplay()
+
 
 
     ?>
