@@ -10,7 +10,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="https://www.linkedin.com/in/ryangann/">Ryan Gann</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,13 +22,13 @@
           <a class="nav-link active" aria-current="page" href="index.php">Home/About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages\jobpage.php">Job History</a>
+          <a class="nav-link" href="jobpage.php">Job History</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages\projects.php">Projects</a>
+          <a class="nav-link" href="projects.php">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages/aboutMe.php">About Me</a>
+          <a class="nav-link" href="aboutMe.php">About Me</a>
         </li>
       </ul>
     </div>
