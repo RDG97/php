@@ -13,7 +13,7 @@
 
     <?php echo '<p>Hello World</p>'; 
     ?>
-    <?php require 'vehicle.php;';
+    <?php require 'vehicle.php';
     
     echo count($cars);
     $carnum = count($cars);

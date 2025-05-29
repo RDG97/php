@@ -1,3 +1,4 @@
+<?php
 class Car {
     public function __construct(
         public string $name,
@@ -13,3 +14,4 @@ $cars = [
     new Car(name: "Saab", weight: 5, height: 2),
     new Car(name: "Land Rover", weight: 17, height: 15)
 ];
+?>
